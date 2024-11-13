@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Exceptions",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\database",
+    "\\database\\migrations",
+    "\\resources",
+    "\\resources\\views",
+    "\\resources\\views\\evaluacciondetalle"
+  ],
+  "SelectedNode": "\\app\\Http\\Controllers\\EvaluaccionDetalleController.php",
+  "PreviewInSolutionExplorer": false
+}

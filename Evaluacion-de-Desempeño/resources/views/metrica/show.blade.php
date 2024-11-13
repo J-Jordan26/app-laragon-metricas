@@ -1,0 +1,53 @@
+@extends('adminlte::page')
+
+@section('template_title')
+    {{ $metrica->name ?? __('Show') . " " . __('Metrica') }}
+@endsection
+
+@section('content')
+    <section class="content container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div class="float-left">
+                            <span class="card-title">{{ __('Show') }} Metrica</span>
+                        </div>
+                        <div class="float-right">
+                            <a class="btn btn-primary btn-sm" href="{{ route('metricas.index') }}"> {{ __('Back') }}</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body bg-white">
+                        
+                        <div class="form-group mb-2 mb20">
+                            <strong>Nombre:</strong>
+                            {{ $metrica->nombre }}
+                        </div>
+                        <div class="form-group mb-2 mb20">
+                            <strong>Descripcion:</strong>
+                            {{ $metrica->descripcion }}
+                        </div>
+                        <div class="form-group mb-2 mb20">
+                            <strong>Categoria Id:</strong>
+                            {{ $metrica->categoria_id }}
+                        </div>
+                        <div class="form-group mb-2 mb20">
+                            <strong>Tipo:</strong>
+                            {{ $metrica->tipo }}
+                        </div>
+                        <div class="form-group mb-2 mb20">
+                            <strong>Valor Minimo:</strong>
+                            {{ $metrica->valor_minimo }}
+                        </div>
+                        <div class="form-group mb-2 mb20">
+                            <strong>Valor Maximo:</strong>
+                            {{ $metrica->valor_maximo }}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection

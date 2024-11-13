@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Evaluacion-de-Desempeño",
+    "\\Evaluacion-de-Desempeño\\app",
+    "\\Evaluacion-de-Desempeño\\database",
+    "\\Evaluacion-de-Desempeño\\database\\migrations",
+    "\\Evaluacion-de-Desempeño\\database\\seeders"
+  ],
+  "SelectedNode": "\\Evaluacion-de-Desempeño\\database\\migrations\\2024_09_03_213817_create_evaluaccion_detalles_table.php",
+  "PreviewInSolutionExplorer": false
+}
